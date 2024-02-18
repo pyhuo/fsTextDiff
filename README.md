@@ -9,3 +9,11 @@ You can learn more in the [Base Extension Development Guide]([https://bytedance.
 ## Install packages
 
 Install packages in Shell pane or search and add in Packages pane.
+
+
+## deploy
+
+把打包好的静态文件放到指定目录
+```
+sudo cp -rf ~/github/fsTextDiff/dist/ /var/www/diff/
+```
